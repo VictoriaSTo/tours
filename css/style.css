@@ -181,7 +181,7 @@ body {
   text-align: center;
   border-radius: 3px;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  transition: all .3s; }
+  transition: transform .3s; }
   .feature-box__icon {
     font-size: 6rem;
     margin-bottom: .5rem;
@@ -247,4 +247,8 @@ body {
 .section-features {
   padding: 20rem 0;
   background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.801), rgba(40, 180, 133, 0.801)), url(../img/nat-4.jpg);
-  background-size: cover; }
+  background-size: cover;
+  margin-top: -10rem;
+  transform: skewY(-7deg); }
+  .section-features > * {
+    transform: skewY(7deg); }
